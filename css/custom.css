@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.navbar-brand:hover{
+	color: red !important;
+}
+
+
+.aboutMe_section{}
+.aboutMe_img{}
+.aboutMe_img img{}
+.aboutMe_content{}
+h1{
+    font-size: 70px !important;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+h2{
+	font-size: 30px !important;
+}
+h1 strong{
+    font-weight: 600;
+    color: red;
+}
+.aboutMe_content span{
+	width: 184px;
+	height: 4px;
+	display:block;
+	background-color: #222;
+	margin-bottom: 9px;
+}
+.aboutMe_content p{
+    line-height: 2;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+@media(min-width: 1200px){
+	.container{
+		width: 992px !important;
+	}	
+}
+@media(max-width: 1199px){
+	h1{
+		font-size:50px !important;
+	}
+	p{
+		font-size: 20px !important;
+	}
+}
+
+@media(max-width: 991px){
+	h1{
+		font-size:40px !important;
+	}
+	p{
+		font-size: 15px !important;
+	}
+	.card-p{
+		font-size: 14px !important;	
+	}
+	.aboutMe_content{
+		margin-top:40px !important; 
+
+	}
+}
+
+@media(max-width: 767px){
+	h1{
+		font-size:15px !important;
+	}
+	p{
+		font-size: 10px !important;
+	}
+	.card-p{
+		font-size: 6px !important;	
+	}
+	h2{
+	font-size: 8px !important;
+  }
+  a{
+  	font-size: 10px !important;
+  }
+}
+@media(max-width: 575px){
+	h1{
+		font-size:13px !important;
+	}
+	p{
+		font-size: 6px !important;
+	}
+	.card-p{
+		font-size: 4px !important;	
+	}
+	h2{
+	font-size: 6px !important;
+  }
+  a{
+  	font-size: 10px !important;
+  }
+  .vedio_section{
+  	padding:0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
